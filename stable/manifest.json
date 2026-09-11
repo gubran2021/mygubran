@@ -1,0 +1,752 @@
+{
+  "name": "Eclipsia",
+  "version": "9.8.0",
+  "scrapers": [
+    {
+      "id": "durnel",
+      "name": "Durnel.",
+      "description": "CTGMovies • 1080p • Mainstream • Regional",
+      "version": "3.2.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/durnel.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "mkv",
+        "m3u8"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "bn",
+        "hi",
+        "ja",
+        "ko"
+      ]
+    },
+    {
+      "id": "evyrith",
+      "name": "Evyrith.",
+      "description": "Vidrock • 1080p • Mainstream",
+      "version": "1.1.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/evyrith.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "fastrion",
+      "name": "Fastrion.",
+      "description": "FshareTV • 1080p • Classic/Vintage",
+      "version": "1.1.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/fastrion.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8",
+        "mkv"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "fendrix",
+      "name": "Fendrix.",
+      "description": "VidKing • Up-to 4k • Mainstream",
+      "version": "1.5.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/fendrix.js",
+      "enabled": true,
+      "formats": [
+        "m3u8"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "fjoral",
+      "name": "Fjoral.",
+      "description": "GramCinema • Up-to 4k • Requires Setup",
+      "version": "1.2.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/fjoral.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "hi"
+      ],
+      "hasSettings": true
+    },
+    {
+      "id": "fyron",
+      "name": "Fyron.",
+      "description": "KissKH • K-Drama • Anime",
+      "version": "1.1.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/fyron.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "hi",
+        "zh",
+        "ko"
+      ]
+    },
+    {
+      "id": "gravix",
+      "name": "Gravix.",
+      "description": "AnimeSalt • Multi Dub • Anime",
+      "version": "1.1.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/gravix.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "ja",
+        "hi",
+        "te",
+        "ta"
+      ]
+    },
+    {
+      "id": "haylox",
+      "name": "Haylox.",
+      "description": "Vidlink • 1080p • Mainstream",
+      "version": "2.1.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/haylox.js",
+      "enabled": true,
+      "formats": [
+        "m3u8"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "hexion",
+      "name": "Hexion.",
+      "description": "4kHdHub • Up-to 4k • Multi-lang",
+      "version": "1.5.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/hexion.js",
+      "enabled": true,
+      "formats": [
+        "mkv",
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "hi"
+      ],
+      "hasSettings": true
+    },
+    {
+      "id": "jhaeros",
+      "name": "Jhaeros.",
+      "description": "Dizipal • Turkish & English",
+      "version": "1.1.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/jhaeros.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "tr"
+      ]
+    },
+    {
+      "id": "jyniq",
+      "name": "Jyniq.",
+      "description": "MovieBlast • 1080p • Mainstream • Regional",
+      "version": "1.1.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/jyniq.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "id": "karnis",
+      "name": "Karnis.",
+      "description": "Castle • 1080p • Mainstream • Regional",
+      "version": "1.6.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/karnis.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "id": "kethrax",
+      "name": "Kethrax.",
+      "description": "VixSrc • Italian & English",
+      "version": "1.1.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/kethrax.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "it"
+      ]
+    },
+    {
+      "id": "kryxalia",
+      "name": "Kryxalia.",
+      "description": "MoviesHunt • Up-to 4k • Mainstream • Regional",
+      "version": "1.5.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/kryxalia.js",
+      "enabled": true,
+      "formats": [
+        "m3u8"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "lenyr",
+      "name": "Lenyr.",
+      "description": "Vidcore • 1080p • Mainstream",
+      "version": "1.1.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/lenyr.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "lyrin",
+      "name": "Lyrin.",
+      "description": "BanglaPlex • 1080p • Regional",
+      "version": "1.1.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/lyrin.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "bn",
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "id": "mavonyx",
+      "name": "Mavonyx.",
+      "description": "MovieBox • Up-to 4k • Multi Dub",
+      "version": "1.7.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/mavonyx.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8",
+        "mpd"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "hi",
+        "bn"
+      ],
+      "hasSettings": true
+    },
+    {
+      "id": "novus",
+      "name": "Novus.",
+      "description": "CineFreak • Up-to 4k • Mainstream • Regional",
+      "version": "3.3.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/novus.js",
+      "enabled": true,
+      "formats": [
+        "mkv",
+        "mp4"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "bn",
+        "hi",
+        "en"
+      ]
+    },
+    {
+      "id": "nyxora",
+      "name": "Nyxora.",
+      "description": "VidFast • 1080p • Mainstream",
+      "version": "1.1.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/nyxora.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8",
+        "mkv"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "hi",
+        "bn"
+      ]
+    },
+    {
+      "id": "onyxia",
+      "name": "Onyxia.",
+      "description": "AnimeWorld • Multi Dub • Anime",
+      "version": "2.8.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/onyxia.js",
+      "enabled": true,
+      "formats": [
+        "m3u8"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "ja"
+      ]
+    },
+    {
+      "id": "praxiel",
+      "name": "Praxiel.",
+      "description": "Re:ANIME • Sub/Dub • Anime",
+      "version": "1.2.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/praxiel.js",
+      "enabled": true,
+      "formats": [
+        "mkv"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "ja"
+      ]
+    },
+    {
+      "id": "pynvix",
+      "name": "Pynvix.",
+      "description": "ShowBox • Up-to 4k • Requires Setup",
+      "version": "1.8.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/pynvix.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "bn",
+        "hi",
+        "ja",
+        "pt",
+        "ar"
+      ],
+      "hasSettings": true
+    },
+    {
+      "id": "solunix",
+      "name": "Solunix.",
+      "description": "VegaMovies (HC & VC) • Up-to 4k • Mainstream",
+      "version": "1.4.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/solunix.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8",
+        "mkv"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "id": "soryn",
+      "name": "Soryn.",
+      "description": "Netmirror • 1080p • Mainstream • Regional",
+      "version": "3.4.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/soryn.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8",
+        "mkv"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "id": "svartok",
+      "name": "Svartok.",
+      "description": "CinemaCity • Multi Dub • Mainstream",
+      "version": "1.1.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/svartok.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8",
+        "mkv"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "bn",
+        "hi",
+        "cs",
+        "fr",
+        "de",
+        "hu",
+        "it",
+        "pl",
+        "pt",
+        "es",
+        "tr"
+      ]
+    },
+    {
+      "id": "vornix",
+      "name": "Vornix.",
+      "description": "MoviesDrive • Up-to 4k • Mainstream • Regional",
+      "version": "1.8.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/vornix.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "bn",
+        "hi",
+        "pt",
+        "ta",
+        "te"
+      ]
+    },
+    {
+      "id": "vyranel",
+      "name": "Vyranel.",
+      "description": "HindMovie • Up-to 4k • Mainstream • Regional",
+      "version": "1.1.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/vyranel.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "mkv",
+        "m3u8"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "bn",
+        "hi",
+        "ar",
+        "ta",
+        "te"
+      ]
+    },
+    {
+      "id": "wrenok",
+      "name": "Wrenok.",
+      "description": "Purstream • French & English",
+      "version": "1.1.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/wrenok.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "fr"
+      ]
+    },
+    {
+      "id": "xandril",
+      "name": "Xandril.",
+      "description": "Bingr • 1080p • Mainstream",
+      "version": "1.1.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/xandril.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8",
+        "mpd"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "id": "xylos",
+      "name": "Xylos.",
+      "description": "AniNeko • Sub/Dub • Anime",
+      "version": "1.1.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "series"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/xylos.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "mkv",
+        "m3u8"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "jp"
+      ]
+    },
+    {
+      "id": "zevran",
+      "name": "Zevran.",
+      "description": "VAplayer  • 1080p • Mainstream",
+      "version": "1.1.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "series"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/zevran.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "mkv",
+        "m3u8"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "zyrvael",
+      "name": "Zyrvael.",
+      "description": "Anikoto • Sub/Dub • Anime",
+      "version": "1.1.0",
+      "author": "Eclipsia",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://gt.githack.com/eclipsia/nuvio-plugin/raw/branch/main/providers/zyrvael.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "",
+      "contentLanguage": [
+        "en",
+        "ja"
+      ]
+    }
+  ]
+}
