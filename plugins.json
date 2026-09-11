@@ -1,90 +1,6 @@
 [
     {
-        "url": "https://raw.githubusercontent.com/Abodabodd/re-3arabi/builds/3isk.cs3",
-        "status": 1,
-        "version": 1,
-        "name": "3isk",
-        "internalName": "3isk",
-        "authors": [
-            "Abodabodd"
-        ],
-        "description": "",
-        "fileSize": 31165,
-        "repositoryUrl": "https://github.com/Abodabodd/re-3arabi",
-        "language": "ar",
-        "tvTypes": [
-            "TvSeries",
-            "Movie"
-        ],
-        "iconUrl": "https://3esk.onl/wp-content/uploads/2021/01/3isk-logo.png",
-        "apiVersion": 1,
-        "fileHash": "sha256-00ead28e610d86add9fc0e3fd937c1dfe863b66b0c5686e28bebf8039c7ab86a"
-    },
-    {
-        "url": "https://raw.githubusercontent.com/Abodabodd/re-3arabi/builds/Aflaam.cs3",
-        "status": 1,
-        "version": 1,
-        "name": "Aflaam",
-        "internalName": "Aflaam",
-        "authors": [
-            "Abodabodd"
-        ],
-        "description": "",
-        "fileSize": 15484,
-        "repositoryUrl": "https://github.com/Abodabodd/re-3arabi",
-        "language": "ar",
-        "tvTypes": [
-            "TvSeries",
-            "Movie"
-        ],
-        "iconUrl": "https://aflaam.com/style/assets/images/logo.png",
-        "apiVersion": 1,
-        "fileHash": "sha256-c8cbba4f4f36d76907d2b366baa480d9201b16079cef9c3bd85f20cc3049e183"
-    },
-    {
-        "url": "https://raw.githubusercontent.com/Abodabodd/re-3arabi/builds/Aia2tv 2.cs3",
-        "status": 1,
-        "version": 3,
-        "name": "Asia2tv 2",
-        "internalName": "Aia2tv 2",
-        "authors": [
-            "Abodabodd"
-        ],
-        "description": "",
-        "fileSize": 14286,
-        "repositoryUrl": "https://github.com/Abodabodd/re-3arabi",
-        "language": "ar",
-        "tvTypes": [
-            "Movie",
-            "TvSeries",
-            "AsianDrama"
-        ],
-        "iconUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQEhyYSi351HRw/company-logo_200_200/company-logo_200_200/0/1630489719119?e=2147483647&v=beta&t=Br69OJ2AwT5vdJHgl-DTvliEqOmp6VQLYwUWcFqG4u4",
-        "apiVersion": 1,
-        "fileHash": "sha256-1de87a498012cf7252b83f54eeb637a8b4cb482fe7114a1bd66b3adfbae1154e"
-    },
-    {
-        "url": "https://raw.githubusercontent.com/Abodabodd/re-3arabi/builds/Akwam.cs3",
-        "status": 1,
-        "version": 3,
-        "name": "Akwam",
-        "internalName": "Akwam",
-        "authors": [
-            "Abodabodd"
-        ],
-        "description": "",
-        "fileSize": 27980,
-        "repositoryUrl": "https://github.com/Abodabodd/re-3arabi",
-        "language": "ar",
-        "tvTypes": [
-            "TvSeries",
-            "Movie"
-        ],
-        "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2vuGLv4zY3XpoN2jza2unCQ95xFfypfe-h3k3xteMbGxl7taw-ziXyNg&s=10",
-        "apiVersion": 1,
-        "fileHash": "sha256-cd29b55725e0db70296c1831ea6c6136889f14eb01e57eb6c32afc998e93ecb2"
-    },
-    {
+            
         "url": "https://raw.githubusercontent.com/Abodabodd/re-3arabi/builds/Alooytv.cs3",
         "status": 1,
         "version": 1,
@@ -484,10 +400,6 @@
         "tvTypes": [
             "TvSeries",
             "Movie"
-        ],
-        "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwTnAJOvyri3uHzHxjkEdlaBBKs8MAvIuJtFmCoo9u5qYiuFpHZjcl6tDi&s=10",
-        "apiVersion": 1,
-        "fileHash": "sha256-785b7fc9326398763dd7343b90658e28b5aae1f7ce3fa1de72fc09a67e6b99e6"
     },
     {
         "url": "https://raw.githubusercontent.com/Abodabodd/re-3arabi/builds/Lodynet.cs3",
