@@ -1,5 +1,5 @@
 {
-  "name": "Eclipsia",
+  "name": "mygubran",
   "version": "9.8.0",
   "scrapers": [
     {
@@ -7,7 +7,7 @@
       "name": "Durnel.",
       "description": "CTGMovies • 1080p • Mainstream • Regional",
       "version": "3.2.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -33,7 +33,7 @@
       "name": "Evyrith.",
       "description": "Vidrock • 1080p • Mainstream",
       "version": "1.1.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -54,7 +54,7 @@
       "name": "Fastrion.",
       "description": "FshareTV • 1080p • Classic/Vintage",
       "version": "1.1.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -76,7 +76,7 @@
       "name": "Fendrix.",
       "description": "VidKing • Up-to 4k • Mainstream",
       "version": "1.5.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -96,7 +96,7 @@
       "name": "Fjoral.",
       "description": "GramCinema • Up-to 4k • Requires Setup",
       "version": "1.2.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -120,7 +120,7 @@
       "name": "Fyron.",
       "description": "KissKH • K-Drama • Anime",
       "version": "1.1.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -144,7 +144,7 @@
       "name": "Gravix.",
       "description": "AnimeSalt • Multi Dub • Anime",
       "version": "1.1.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -169,7 +169,7 @@
       "name": "Haylox.",
       "description": "Vidlink • 1080p • Mainstream",
       "version": "2.1.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -189,7 +189,7 @@
       "name": "Hexion.",
       "description": "4kHdHub • Up-to 4k • Multi-lang",
       "version": "1.5.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -213,7 +213,7 @@
       "name": "Jhaeros.",
       "description": "Dizipal • Turkish & English",
       "version": "1.1.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -235,7 +235,7 @@
       "name": "Jyniq.",
       "description": "MovieBlast • 1080p • Mainstream • Regional",
       "version": "1.1.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -257,7 +257,7 @@
       "name": "Karnis.",
       "description": "Castle • 1080p • Mainstream • Regional",
       "version": "1.6.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -279,7 +279,7 @@
       "name": "Kethrax.",
       "description": "VixSrc • Italian & English",
       "version": "1.1.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -301,7 +301,7 @@
       "name": "Kryxalia.",
       "description": "MoviesHunt • Up-to 4k • Mainstream • Regional",
       "version": "1.5.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie"
       ],
@@ -320,7 +320,7 @@
       "name": "Lenyr.",
       "description": "Vidcore • 1080p • Mainstream",
       "version": "1.1.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -341,7 +341,7 @@
       "name": "Lyrin.",
       "description": "BanglaPlex • 1080p • Regional",
       "version": "1.1.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -364,7 +364,7 @@
       "name": "Mavonyx.",
       "description": "MovieBox • Up-to 4k • Multi Dub",
       "version": "1.7.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -389,7 +389,7 @@
       "name": "Novus.",
       "description": "CineFreak • Up-to 4k • Mainstream • Regional",
       "version": "3.3.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -412,7 +412,7 @@
       "name": "Nyxora.",
       "description": "VidFast • 1080p • Mainstream",
       "version": "1.1.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -436,7 +436,7 @@
       "name": "Onyxia.",
       "description": "AnimeWorld • Multi Dub • Anime",
       "version": "2.8.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -457,7 +457,7 @@
       "name": "Praxiel.",
       "description": "Re:ANIME • Sub/Dub • Anime",
       "version": "1.2.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -478,7 +478,7 @@
       "name": "Pynvix.",
       "description": "ShowBox • Up-to 4k • Requires Setup",
       "version": "1.8.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -506,7 +506,7 @@
       "name": "Solunix.",
       "description": "VegaMovies (HC & VC) • Up-to 4k • Mainstream",
       "version": "1.4.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -529,7 +529,7 @@
       "name": "Soryn.",
       "description": "Netmirror • 1080p • Mainstream • Regional",
       "version": "3.4.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -552,7 +552,7 @@
       "name": "Svartok.",
       "description": "CinemaCity • Multi Dub • Mainstream",
       "version": "1.1.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -585,7 +585,7 @@
       "name": "Vornix.",
       "description": "MoviesDrive • Up-to 4k • Mainstream • Regional",
       "version": "1.8.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -612,7 +612,7 @@
       "name": "Vyranel.",
       "description": "HindMovie • Up-to 4k • Mainstream • Regional",
       "version": "1.1.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -639,7 +639,7 @@
       "name": "Wrenok.",
       "description": "Purstream • French & English",
       "version": "1.1.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -661,7 +661,7 @@
       "name": "Xandril.",
       "description": "Bingr • 1080p • Mainstream",
       "version": "1.1.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
@@ -684,7 +684,7 @@
       "name": "Xylos.",
       "description": "AniNeko • Sub/Dub • Anime",
       "version": "1.1.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv",
@@ -708,7 +708,7 @@
       "name": "Zevran.",
       "description": "VAplayer  • 1080p • Mainstream",
       "version": "1.1.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv",
@@ -731,7 +731,7 @@
       "name": "Zyrvael.",
       "description": "Anikoto • Sub/Dub • Anime",
       "version": "1.1.0",
-      "author": "Eclipsia",
+      "author": "mygubran",
       "supportedTypes": [
         "movie",
         "tv"
