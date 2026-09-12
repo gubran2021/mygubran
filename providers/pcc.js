@@ -316,7 +316,7 @@ function getStreams(id, type, season, episode) {
     }
     const servers = [];
     if (preferredServer) servers.push(preferredServer);
-    for (const server of [1, 2, 3, 4, 5]) if (!servers.includes(server)) servers.push(server);
+    for (const server of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]) if (!servers.includes(server)) servers.push(server);
     const streams = [];
     for (const server of servers) {
       const path = movie ? `/hls/s${server}/movie/${finalImdbId}` : `/hls/s${server}/serial/${finalImdbId}/${siteSeason}/${siteEpisode}`;
