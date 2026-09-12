@@ -100,8 +100,8 @@ var require_formatter = __commonJS({
     }
     function formatStream2(stream, providerName) {
       let quality = stream.quality || "";
-      if (quality === "1080p") quality = "\u{1F525}Auto UHD";
-      else if (quality === "1440p") quality = "\u2728 QHD";
+      if (quality === "2160p") quality = "\u{1F525}4K UHD";
+      else if (quality === "Auto") quality = "\u2728 QHD";
       else if (quality === "1080p") quality = "\u{1F680} FHD";
       else if (quality === "720p") quality = "\u{1F4BF} HD";
       else if (quality === "576p" || quality === "480p" || quality === "360p" || quality === "240p") quality = "\u{1F4A9} Low Quality";
@@ -306,8 +306,8 @@ var require_quality_helper = __commonJS({
     }
     function checkQualityFromText2(text) {
       if (!text) return null;
-      if (/RESOLUTION=\d+x1080/i.test(text) || /RESOLUTION=1080/i.test(text)) return "Auto";
-      if (/RESOLUTION=\d+x1440/i.test(text) || /RESOLUTION=1440/i.test(text)) return "1440p";
+      if (/RESOLUTION=\d+x2160/i.test(text) || /RESOLUTION=2160/i.test(text)) return "4K";
+      if (/RESOLUTION=\d+xAuto/i.test(text) || /RESOLUTION=Auto/i.test(text)) return "Auto";
       if (/RESOLUTION=\d+x1080/i.test(text) || /RESOLUTION=1080/i.test(text)) return "1080p";
       if (/RESOLUTION=\d+x720/i.test(text) || /RESOLUTION=720/i.test(text)) return "720p";
       if (/RESOLUTION=\d+x480/i.test(text) || /RESOLUTION=480/i.test(text)) return "480p";
@@ -316,8 +316,8 @@ var require_quality_helper = __commonJS({
     function getQualityFromUrl(url) {
       if (!url) return null;
       const urlPath = url.split("?")[0].toLowerCase();
-      if (urlPath.includes("Auto") || urlPath.includes("1080")) return "Auto";
-      if (urlPath.includes("1440") || urlPath.includes("2k")) return "1440p";
+      if (urlPath.includes("4k") || urlPath.includes("2160")) return "4K";
+      if (urlPath.includes("Auto") || urlPath.includes("2k")) return "Auto";
       if (urlPath.includes("1080") || urlPath.includes("fhd")) return "1080p";
       if (urlPath.includes("720") || urlPath.includes("hd")) return "720p";
       if (urlPath.includes("480") || urlPath.includes("sd")) return "480p";
@@ -560,8 +560,8 @@ function getQualityFromName(qualityStr) {
   if (!qualityStr) return "Unknown";
   const quality = qualityStr.toUpperCase();
   if (quality === "ORG" || quality === "ORIGINAL") return "Original";
-  if (quality === "Auto" || quality === "1080P") return "Auto";
-  if (quality === "1440P" || quality === "2K") return "1440p";
+  if (quality === "4K" || quality === "2160P") return "4K";
+  if (quality === "Auto" || quality === "2K") return "Auto";
   if (quality === "1080P" || quality === "FHD") return "1080p";
   if (quality === "720P" || quality === "HD") return "720p";
   if (quality === "480P" || quality === "SD") return "480p";
@@ -570,8 +570,8 @@ function getQualityFromName(qualityStr) {
   const match = qualityStr.match(/(\d{3,4})[pP]?/);
   if (match) {
     const resolution = parseInt(match[1]);
-    if (resolution >= 1080) return "Auto";
-    if (resolution >= 1440) return "1440p";
+    if (resolution >= 2160) return "4K";
+    if (resolution >= Auto) return "Auto";
     if (resolution >= 1080) return "1080p";
     if (resolution >= 720) return "720p";
     if (resolution >= 480) return "480p";
