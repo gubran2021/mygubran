@@ -102,7 +102,7 @@ var require_formatter = __commonJS({
       let quality = stream.quality || "";
       if (quality === "2160p") quality = "\u{1F525}4K UHD";
       else if (quality === "1440p") quality = "\u2728 QHD";
-      else if (quality === "Auto") quality = "\u{1F680} FHD";
+      else if (quality === "1080p") quality = "\u{1F680} FHD";
       else if (quality === "720p") quality = "\u{1F4BF} HD";
       else if (quality === "576p" || quality === "480p" || quality === "360p" || quality === "240p") quality = "\u{1F4A9} Low Quality";
       else if (!quality || ["auto", "unknown", "unknow"].includes(String(quality).toLowerCase())) quality = "\u{1F4BF} HD";
@@ -308,7 +308,7 @@ var require_quality_helper = __commonJS({
       if (!text) return null;
       if (/RESOLUTION=\d+x2160/i.test(text) || /RESOLUTION=2160/i.test(text)) return "4K";
       if (/RESOLUTION=\d+x1440/i.test(text) || /RESOLUTION=1440/i.test(text)) return "1440p";
-      if (/RESOLUTION=\d+x1080/i.test(text) || /RESOLUTION=1080/i.test(text)) return "Auto";
+      if (/RESOLUTION=\d+x1080/i.test(text) || /RESOLUTION=1080/i.test(text)) return "1080p";
       if (/RESOLUTION=\d+x720/i.test(text) || /RESOLUTION=720/i.test(text)) return "720p";
       if (/RESOLUTION=\d+x480/i.test(text) || /RESOLUTION=480/i.test(text)) return "480p";
       return null;
@@ -318,7 +318,7 @@ var require_quality_helper = __commonJS({
       const urlPath = url.split("?")[0].toLowerCase();
       if (urlPath.includes("4k") || urlPath.includes("2160")) return "4K";
       if (urlPath.includes("1440") || urlPath.includes("2k")) return "1440p";
-      if (urlPath.includes("1080") || urlPath.includes("fhd")) return "Auto";
+      if (urlPath.includes("1080") || urlPath.includes("fhd")) return "1080p";
       if (urlPath.includes("720") || urlPath.includes("hd")) return "720p";
       if (urlPath.includes("480") || urlPath.includes("sd")) return "480p";
       if (urlPath.includes("360")) return "360p";
@@ -562,7 +562,7 @@ function getQualityFromName(qualityStr) {
   if (quality === "ORG" || quality === "ORIGINAL") return "Original";
   if (quality === "4K" || quality === "2160P") return "4K";
   if (quality === "1440P" || quality === "2K") return "1440p";
-  if (quality === "Auto" || quality === "FHD") return "Auto";
+  if (quality === "1080P" || quality === "FHD") return "1080p";
   if (quality === "720P" || quality === "HD") return "720p";
   if (quality === "480P" || quality === "SD") return "480p";
   if (quality === "360P") return "360p";
@@ -572,7 +572,7 @@ function getQualityFromName(qualityStr) {
     const resolution = parseInt(match[1]);
     if (resolution >= 2160) return "4K";
     if (resolution >= 1440) return "1440p";
-    if (resolution >= 1080) return "Auto";
+    if (resolution >= 1080) return "1080p";
     if (resolution >= 720) return "720p";
     if (resolution >= 480) return "480p";
     if (resolution >= 360) return "360p";
@@ -732,7 +732,7 @@ function getStreams(id, type, season, episode, providerContext = null) {
         const cleanIframeUrl = (item.iframeUrl || cleanEmbedUrl).replace("vixcloud.co", "komiknostalgia.id").replace("vixsrc.to", "komiknostalgia.id");
         const streamHeaders = getPlaylistHeaders(cleanEmbedUrl);
         console.log(`[StreamingCommunity] Final stream URL (${item.source}): ${streamUrl}`);
-        let quality = "Auto";
+        let quality = "1080p";
         let hasItalianAudio = false;
         let playlistFetched = false;
         try {
