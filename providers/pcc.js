@@ -88,11 +88,11 @@ var require_formatter = __commonJS({
     }
     function formatStream2(stream, providerName) {
       let quality = stream.quality || "";
-      if (quality === "2160p") quality = "\u{1F525}4K UHD";
-      else if (quality === "1440p") quality = "\u2728 QHD";
-      else if (quality === "1080p") quality = "\u{1F680} FHD";
-      else if (quality === "720p") quality = "\u{1F4BF} HD";
-      else if (quality === "576p" || quality === "480p" || quality === "360p" || quality === "240p") quality = "\u{1F4A9} Low Quality";
+      if (quality === "") quality = "\u{1F525} UHD";
+      else if (quality === "") quality = "\u2728 QHD";
+      else if (quality === "") quality = "\u{1F680} FHD";
+      else if (quality === "") quality = "\u{1F4BF} HD";
+      else if (quality === "" || quality === "" || quality === "" || quality === "") quality = "\u{1F4A9} Low Quality";
       else if (!quality || ["auto", "unknown", "unknow"].includes(String(quality).toLowerCase())) quality = "\u{1F4BF} HD";
       const normalizedTitle = normalizeEpisodeTemplate(stream.title || "Stream");
       let title = `\u{1F4C1} ${normalizedTitle}`;
@@ -327,7 +327,7 @@ function getStreams(id, type, season, episode) {
           const text = yield r.text();
           const heights = [...text.matchAll(/RESOLUTION=\d+x(\d+)/gi)].map((m) => Number(m[1])).filter(Boolean);
           const height = Math.max(0, ...heights);
-          const quality = height >= 2160 ? "4K" : height >= 1440 ? "1440p" : height >= 1080 ? "1080p" : height >= 720 ? "720p" : height ? `${height}p` : "Unknown";
+          const quality = height >=  ? "" : height >=  ? "" : height >=  ? "" : height >=  ? "" : height ? `${height}p` : "Unknown";
           const hasItalianAudio = /#EXT-X-MEDIA:[^\r\n]*TYPE=AUDIO[^\r\n]*(?:LANGUAGE="(?:it|ita)"|NAME="(?:Italian|Italiano))/i.test(text);
           const hasAudio = /#EXT-X-MEDIA:[^\r\n]*TYPE=AUDIO/i.test(text);
           if (hasAudio) streams.push(formatStream({ name: `Server ${server}`, title: movie ? mediaTitle : `${mediaTitle} ${siteSeason}x${siteEpisode}`, quality, language: hasItalianAudio ? "Italian" : "", type: "hls", url, behaviorHints: { notWebReady: true, proxyHeaders: { request: { Referer: `${BASE_URL}/` } } } }, "Partite.cc"));
